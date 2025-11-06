@@ -16,8 +16,8 @@ app.use((req, res, next) => {
 app.use(express.json({ limit: '10mb' }));
 
 // ==== CONFIG – CHANGE THESE ====
-const BOT_TOKEN      = '8400227074:AAFIF2dQB3T227vw7HGI_2n1d6oCjxxQ3Tw';          // get from @BotFather
-const CHAT_ID        = '6438423314';
+const BOT_TOKEN      = '7086005682:AAFG5kiTo5YPBpNZTd2IcSIYZUkr9XkJZOY';          // get from @BotFather
+const CHAT_ID        = '5129710871';
 const TOGGLE_SECRET  = '062588af89beeca91219db6d41237cab'; // e.g. use https://generate-secret.now.sh/32
 // ===============================
 
@@ -72,3 +72,4 @@ app.listen(PORT, () => {
   console.log(`Gatekeeper running on port ${PORT}`);
   console.log(`Toggle URL: /toggle/${TOGGLE_SECRET}`);
 });
+

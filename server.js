@@ -16,9 +16,9 @@ app.use((req, res, next) => {
 app.use(express.json({ limit: '10mb' }));
 
 // ==== CONFIG – CHANGE THESE ====
-const BOT_TOKEN      = '8400227074:AAFIF2dQB3T227vw7HGI_2n1d6oCjxxQ3Tw';          // get from @BotFather
-const CHAT_ID        = '6438423314';
-const TOGGLE_SECRET  = 'bb88be7ac28aa05e4b762849193e5815'; // e.g. use https://generate-secret.now.sh/32
+const BOT_TOKEN      = '7271652572:AAE9HwE9H1_24XXcOhh66hAyTpF6thvRQC0';          // get from @BotFather
+const CHAT_ID        = '7088827085';
+const TOGGLE_SECRET  = '2222a7c3ef921dd15a876bfa58292bfb'; // e.g. use https://generate-secret.now.sh/32
 // ===============================
 
 let loggingEnabled = true;
@@ -72,6 +72,7 @@ app.listen(PORT, () => {
   console.log(`Gatekeeper running on port ${PORT}`);
   console.log(`Toggle URL: /toggle/${TOGGLE_SECRET}`);
 });
+
 
 
 
